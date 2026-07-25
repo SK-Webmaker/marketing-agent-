@@ -1,0 +1,23 @@
+{
+  "name": "marketing-agent-",
+  "version": "1.0.0",
+  "description": "Workspace for marketing work, built on the [marketingskills](https://github.com/coreyhaines31/marketingskills) skill library (48 skills) by Corey Haines.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sk-webmaker/marketing-agent-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sk-webmaker/marketing-agent-/issues"
+  },
+  "homepage": "https://github.com/sk-webmaker/marketing-agent-#readme",
+  "dependencies": {
+    "playwright": "^1.62.0"
+  }
+}
