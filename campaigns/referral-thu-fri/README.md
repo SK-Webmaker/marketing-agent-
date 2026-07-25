@@ -15,8 +15,9 @@ assets/          original photography
 assets/email/    cropped + graded images to upload
 previews/        desktop & mobile screenshots of every email
 design-tests/    the three rejected design directions
-SEND-PLAN.md     subject lines, schedule, Resend setup, metrics
-REFERRAL-SOP.md  how Sha runs the program day to day
+CAMPAIGN-STRATEGY.md  the full plan: all five levers, 8-week calendar, scripts
+SEND-PLAN.md          subject lines, schedule, Resend setup, metrics
+REFERRAL-SOP.md       how Sha runs the program day to day
 referral-tracker.csv
 ```
 
@@ -29,8 +30,11 @@ referral-tracker.csv
 | 3 | `03-last-call` | Broadcast, day 18 | Thu/Fri capacity. Booking-led; referral secondary. |
 | 4 | `04-new-client-welcome` | Triggered, on booking | Confirm the 10%, reduce no-shows, set the tone. |
 | 5 | `05-reward-ready` | Triggered, after attendance | Close the loop and convert the reward into a Thu/Fri booking. |
+| 6 | `06-lapsed-reactivation` | Broadcast, week 2 | Win back 6+ month lapsed clients. No discount, by design. |
 
 Emails 4 and 5 are what make the program work rather than just announce it. **Email 5 is the highest-value message in the set for the capacity goal** — it hands an existing client an already-earned reason to rebook.
+
+**Start with `CAMPAIGN-STRATEGY.md`.** The referral campaign delivers roughly 15–30 of the ~50–65 appointment slots the goal actually requires; the strategy document covers the other levers needed to close that gap — chiefly rebooking clients onto Thu/Fri at the chair, which outperforms the entire email campaign and costs nothing.
 
 ## Build & preview
 
@@ -80,9 +84,12 @@ Assets were instead composed locally with Pillow (crop, warm grade, compress) fr
 
 ---
 
+## Settled
+
+- **Phone number `0452 611 799` — confirmed correct** by the owner. The site source's "verify before launch" note can be cleared.
+- **Offer scope — confirmed as specified.** Both discounts stay valid any day. Restricting the new client's 10% to Thu/Fri was rejected: Fresha won't show a day that's already booked out, so the calendar handles capacity without adding friction to the offer. See `SEND-PLAN.md` §6.
+
 ## Open items
 
-- **Confirm the phone number.** `0452 611 799` came from Instagram and is flagged unverified in the site source.
 - **Confirm the image host path.** `hairbyshacamberwell.com` was unreachable from the build environment (network policy), so the default asset base in `build.mjs` is an assumption.
 - **Replace the site's placeholder testimonials** with real Google/Fresha reviews before using any social proof in marketing.
-- **Decision flagged in `SEND-PLAN.md` §6:** tying the new client's 10% to a Thursday/Friday first appointment would channel referrals straight into the empty capacity. Not applied — it changes the specified offer and needs approval.

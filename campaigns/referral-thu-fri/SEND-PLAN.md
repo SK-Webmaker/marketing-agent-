@@ -137,12 +137,10 @@ On a warm single-stylist list, 2–5% of recipients typically refer someone with
 
 ---
 
-## 6. Decision flagged for approval
+## 6. Offer scope — settled
 
-The offer is built exactly to the spec provided: 15% / 10%, no codes, reward after attendance, both discounts usable on **any** day.
+The offer stands exactly as specified: **15% / 10%, no codes, reward after attendance, both discounts valid on any day.**
 
-There is a stronger version for the stated goal. **Tie the new client's 10% to a Thursday or Friday first appointment.** Right now the campaign only *points* at Thu/Fri with copy; the discount itself does no steering, so a referred client may well book the Saturday that's already full. Making the new-client discount Thu/Fri-only channels every referral straight into the empty capacity, and new clients have no established habit to disrupt — they'll take the day they're offered.
+Restricting the new client's 10% to Thursday/Friday was considered and **rejected on sound grounds**: Fresha won't surface a day that's already booked out, so the booking system does the steering on its own. A discount restriction would add friction and a reason to say no, without adding any capacity control the calendar isn't already providing.
 
-Recommendation: leave the referrer's 15% unrestricted (a thank-you shouldn't come with conditions), and make the new client's 10% Thursday/Friday-only. One line changes in each email if approved.
-
-Not done unilaterally — it's a change to the offer you specified.
+The Thu/Fri push therefore lives entirely in the copy and in what Sha offers verbally — which is where it belongs. See `REFERRAL-SOP.md` → *Where the Thursday/Friday goal fits*: offering the day out loud ("I've got a lovely quiet Thursday morning, or a Friday at two — which suits?") does more work than any discount rule.
