@@ -89,4 +89,26 @@ photo_only = sha.crop((0, 0, 367, 432))
 save(warm_grade(crop_to(photo_only, 360, 360, focus_y=0.10), contrast=1.02), "sha-square.jpg", quality=90)
 save(warm_grade(crop_to(photo_only, 340, 420, focus_y=0.05), contrast=1.02), "sha-portrait.jpg", quality=90)
 
+# --- Optional additional photography ---------------------------------------
+# Drop new source photos into assets/ using these filenames and re-run this
+# script; heroes are generated automatically and can be swapped into any email
+# by changing the {{ASSETS}}/… filename in the template.
+#
+#   photo-blonde.jpg   long straight blonde, window light   -> hero-blonde.jpg
+#   photo-bronde.jpg   long straight bronde, side view      -> hero-bronde.jpg
+#
+OPTIONAL = [
+    # (source filename, output name, crop w, h, vertical focus)
+    ("photo-blonde.jpg", "hero-blonde.jpg", 900, 620, 0.30),
+    ("photo-bronde.jpg", "hero-bronde.jpg", 900, 620, 0.32),
+]
+
+extra = [(s, o, w, h, fy) for (s, o, w, h, fy) in OPTIONAL if (SRC / s).exists()]
+if extra:
+    print("optional photography:")
+    for src_name, out_name, w, h, fy in extra:
+        save(warm_grade(crop_to(load(src_name), w, h, focus_y=fy)), out_name)
+else:
+    print("optional photography: none found (see OPTIONAL in this file)")
+
 print("\nDone ->", OUT)
