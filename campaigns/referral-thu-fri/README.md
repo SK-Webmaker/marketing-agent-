@@ -21,7 +21,7 @@ REFERRAL-SOP.md       how Sha runs the program day to day
 referral-tracker.csv
 ```
 
-## The five emails
+## The six emails
 
 | # | File | Type | Job |
 |---|---|---|---|
@@ -74,11 +74,13 @@ The final combines A's layout, B's headline and framed offer block, and drops th
 
 The brief asked to trial Canva, Higgsfield and Picsart and pick the best.
 
-| Tool | Result |
-|---|---|
-| **Canva** | Quota exhausted on this account — `generate-design` returned a quota error. |
-| **Higgsfield** | Out of credits in the selected workspace. |
-| **Picsart** | Connector disconnected mid-session. |
+All three are *connected* — the blockers were account-level, not connection-level:
+
+| Tool | Blocker | Fix |
+|---|---|---|
+| **Canva** | Free-plan monthly AI/API quota exhausted | Resets monthly. Check Settings → Menu → Subscription → AI usage, or upgrade. |
+| **Higgsfield** | Free plan, 0 credits, single workspace | Top up credits or upgrade the plan. |
+| **Picsart** | Connected but toggled **off for this chat** | Enable it in the chat's connector settings. |
 
 Assets were instead composed locally with Pillow (crop, warm grade, compress) from Sha's real photographs, which is the better answer regardless of availability: it gives exact brand control and keeps every depicted result genuine. If Canva credits are restored later, the natural use is a matching Instagram post and story to run alongside the email — not the email itself.
 
