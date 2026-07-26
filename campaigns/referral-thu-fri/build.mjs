@@ -48,7 +48,7 @@ for (const file of readdirSync(SRC).sort()) {
   // strip the leading developer comment block — internal notes only, never
   // meant to be pasted into the sending tool
   if (file.endsWith('.html')) {
-    out = out.replace(/^<!--[\s\S]*?-->\n?/, '');
+    out = out.replace(/<!--[\s\S]*?-->\n?/g, '');
   }
 
   writeFileSync(join(DIST, file), out);
