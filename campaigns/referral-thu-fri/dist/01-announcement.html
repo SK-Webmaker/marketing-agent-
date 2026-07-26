@@ -1,13 +1,3 @@
-<!--
-  Hair by Sha: Referral campaign, Email 1 of 3 (announcement)
-
-  Placeholders to replace at send time:
-    https://hairbyshacamberwell.com/email/referral       base URL where the /assets/email images are hosted
-    sms:?&body=You%20should%20book%20in%20with%20Sha%20in%20Camberwell%20%E2%80%94%20she's%20who%20does%20my%20hair.%20Mention%20my%20name%20when%20you%20book%20and%20you'll%20get%2010%25%20off%20your%20first%20visit.%20hairbyshacamberwell.com          pre-filled sms: deep link (see render.mjs / SEND-PLAN.md)
-    https://www.fresha.com/a/hair-by-sha-melbourne-prospect-hill-road-i1nq0ttb      Fresha booking URL
-    {{UNSUBSCRIBE}}  Resend unsubscribe URL  ({{{RESEND_UNSUBSCRIBE_URL}}})
-    {{FIRST_NAME}}   merge tag, with a fallback, see SEND-PLAN.md
--->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light">
@@ -55,7 +45,7 @@
 
   <!-- ── hero ───────────────────────────────────────────────── -->
   <tr><td style="font-size:0;line-height:0;">
-    <img src="https://hairbyshacamberwell.com/email/referral/hero-balayage.jpg" width="600" alt="Lived-in balayage, coloured by Sha at Hair by Sha in Camberwell" style="width:100%;max-width:600px;height:auto;">
+    <img src="https://raw.githubusercontent.com/sk-webmaker/marketing-agent-/main/campaigns/referral-thu-fri/assets/email/hero-balayage.jpg" width="600" alt="Lived-in balayage, coloured by Sha at Hair by Sha in Camberwell" style="width:100%;max-width:600px;height:auto;">
   </td></tr>
 
   <!-- ── headline ───────────────────────────────────────────── -->
@@ -166,7 +156,7 @@
   <tr><td class="px" style="padding:38px 54px 0;">
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
       <tr>
-        <td width="100" valign="top"><img src="https://hairbyshacamberwell.com/email/referral/sha-square.jpg" width="84" alt="Sha" style="width:84px;height:84px;"></td>
+        <td width="100" valign="top"><img src="https://raw.githubusercontent.com/sk-webmaker/marketing-agent-/main/campaigns/referral-thu-fri/assets/email/sha-square.jpg" width="84" alt="Sha" style="width:84px;height:84px;"></td>
         <td valign="top" style="font-family:Helvetica,Arial,sans-serif;font-size:15px;line-height:1.7;color:#4A423C;">
           Thank you for trusting me with your hair, and for every time you've quietly passed my name on.
           <div style="font-family:Georgia,'Times New Roman',serif;font-size:21px;font-style:italic;color:#1A1614;padding-top:12px;">Sha</div>
@@ -197,7 +187,7 @@
       <div style="padding-top:14px;font-size:11px;line-height:1.7;color:#B3A99F;">
         The 15% is added to your file once your friend has attended their first appointment, and applies
         to your next single appointment. One reward per new client. Not available with other offers.<br>
-        <a href="{{UNSUBSCRIBE}}" style="color:#B3A99F;text-decoration:underline;">Unsubscribe</a>
+        <a href="{{{RESEND_UNSUBSCRIBE_URL}}}" style="color:#B3A99F;text-decoration:underline;">Unsubscribe</a>
       </div>
     </div>
   </td></tr>

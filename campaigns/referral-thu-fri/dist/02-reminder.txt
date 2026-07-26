@@ -39,4 +39,4 @@ Hair by Sha, 1 Prospect Hill Rd, Camberwell VIC 3124
 The 15% is added to your file once your friend has attended their first
 appointment. One reward per new client.
 
-Unsubscribe: {{UNSUBSCRIBE}}
+Unsubscribe: {{{RESEND_UNSUBSCRIBE_URL}}}

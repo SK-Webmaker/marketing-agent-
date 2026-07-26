@@ -57,4 +57,4 @@ The 15% is added to your file once your friend has attended their first
 appointment, and applies to your next single appointment. One reward per new
 client. Not available with other offers.
 
-Unsubscribe: {{UNSUBSCRIBE}}
+Unsubscribe: {{{RESEND_UNSUBSCRIBE_URL}}}

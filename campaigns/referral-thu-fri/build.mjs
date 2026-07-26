@@ -36,10 +36,20 @@ let n = 0;
 for (const file of readdirSync(SRC).sort()) {
   if (!/\.(html|txt)$/.test(file)) continue;
 
-  const out = readFileSync(join(SRC, file), 'utf8')
+  let out = readFileSync(join(SRC, file), 'utf8')
     .replaceAll('{{ASSETS}}', ASSETS)
     .replaceAll('{{SMS}}', SMS)
-    .replaceAll('{{BOOKING}}', BOOKING);
+    .replaceAll('{{BOOKING}}', BOOKING)
+    // Resend's broadcast unsubscribe merge tag. Resend requires triple braces
+    // and auto-fills this for any email sent to an Audience — leave it as-is
+    // once pasted in, do not delete it.
+    .replaceAll('{{UNSUBSCRIBE}}', '{{{RESEND_UNSUBSCRIBE_URL}}}');
+
+  // strip the leading developer comment block — internal notes only, never
+  // meant to be pasted into the sending tool
+  if (file.endsWith('.html')) {
+    out = out.replace(/^<!--[\s\S]*?-->\n?/, '');
+  }
 
   writeFileSync(join(DIST, file), out);
   console.log(`  ${file}`);

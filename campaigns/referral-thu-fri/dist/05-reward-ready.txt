@@ -28,4 +28,4 @@ Hair by Sha, 1 Prospect Hill Rd, Camberwell VIC 3124
 
 Applies to your next single appointment. Not available with other offers.
 
-Unsubscribe: {{UNSUBSCRIBE}}
+Unsubscribe: {{{RESEND_UNSUBSCRIBE_URL}}}
