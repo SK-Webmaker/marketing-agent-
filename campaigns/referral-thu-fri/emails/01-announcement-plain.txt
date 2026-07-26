@@ -1,0 +1,39 @@
+Hi {{FIRST_NAME}},
+
+Quick one, and a thank you that's overdue.
+
+You get asked who does your hair. I know you do, because most of the people
+sitting in my chair arrived because someone answered that question with my
+name.
+
+So from today it's worth something. If you send someone my way:
+
+  They get 10% off their first appointment.
+  You get 15% off your next one.
+
+No codes, no links, no forms. They just mention your name when they book.
+Once they've been in, your 15% sits on your file for next time.
+
+If it helps, here are the words: "You should book in with Sha in Camberwell.
+She's who does my hair. Mention my name and you'll get 10% off your first
+visit."
+
+One more thing. I've opened up Thursdays and Fridays. They're the quietest
+days in my week, so the appointments are unhurried and still easy to get
+into. If you're due, or you know someone who is, everything's here:
+{{BOOKING}}
+
+Thank you for trusting me with your hair, and for every time you've quietly
+passed my name on.
+
+Sha
+Hair by Sha, 1 Prospect Hill Rd, Camberwell VIC 3124
+0452 611 799
+
+P.S. If this landed in your Promotions tab, drag it across to your main inbox
+and Gmail will keep me there from now on. Or just hit reply and say hello,
+that does the same thing.
+
+The 15% is added once your friend has attended their first appointment and
+applies to your next single appointment. One reward per new client.
+Unsubscribe: {{UNSUBSCRIBE}}

@@ -199,6 +199,6 @@ Verify the endpoint against current Resend docs before wiring anything up.
 | Layout broken in Outlook | Pasted into the visual editor | Re-paste into HTML mode. Never let the WYSIWYG touch it. |
 | Images not showing | Wrong asset path, or not public | Open an image URL directly in a private browser window |
 | `{{FIRST_NAME}}` visible in the sent email | Wrong brace count or unmapped field | Triple braces; set a fallback; re-test |
-| Very low opens (<25%) | Sender name or subject | Send from "Sha —", not the business name |
+| Very low opens (<25%) | Sender name or subject | Send from "Sha from Hair by Sha", not the business name |
 | Unsubscribes spike | Too frequent, or wrong segment | Three broadcasts in eight weeks is the ceiling for this list |
 | Bounces >3% | Stale list | Clean it and re-import; don't keep sending to bouncing addresses |
