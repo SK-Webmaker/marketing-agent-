@@ -21,7 +21,7 @@ const ASSETS = argAssets > -1
   ? process.argv[argAssets + 1].replace(/\/$/, '')
   : 'https://hairbyshacamberwell.com/email/referral';
 
-const BOOKING = 'https://www.fresha.com/a/hair-by-sha-melbourne-prospect-hill-road-i1nq0ttb';
+const BOOKING = 'https://hairbysha-booking.onrender.com/book';
 
 // Pre-filled SMS. "sms:?&body=" is the form that behaves on both iOS and
 // Android; desktop clients ignore it, which is why the message is also shown

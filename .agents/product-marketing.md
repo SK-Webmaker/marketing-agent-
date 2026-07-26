@@ -11,9 +11,9 @@ Single source of truth for all marketing skills in this workspace. Derived from 
 | **Type** | Boutique one-chair hair salon |
 | **Location** | 1 Prospect Hill Rd, Camberwell VIC 3124, Melbourne, Australia |
 | **Phone / SMS** | 0452 611 799 (`tel:+61452611799`) |
-| **Booking** | Fresha — https://www.fresha.com/a/hair-by-sha-melbourne-prospect-hill-road-i1nq0ttb |
+| **Booking** | https://hairbysha-booking.onrender.com/book (custom booking app — replaced Fresha) |
 | **Website** | https://hairbyshacamberwell.com/ |
-| **Instagram** | [@infusion_hair_](https://www.instagram.com/infusion_hair_/) |
+| **Instagram** | None confirmed. The old `@infusion_hair_` handle was retired and removed from all campaign material. Do not reference an Instagram account until a current handle is confirmed. |
 | **Hours** | Mon–Fri 10am–6pm · Sat–Sun 10am–5pm |
 
 ## Positioning

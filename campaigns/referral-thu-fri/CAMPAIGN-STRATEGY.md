@@ -66,7 +66,9 @@ Three actions, all one-off:
 
 ### Lever 5 — Instagram
 
-`@infusion_hair_` supports the other levers; it rarely drives bookings on its own at this scale. Its job is to make the referral easy — when someone is told "book with Sha," the first thing they do is look her up. If the profile is stale, the referral dies there.
+Instagram supports the other levers; it rarely drives bookings on its own at this scale. Its job is to make the referral easy — when someone is told "book with Sha," the first thing they do is look her up. If the profile is stale, the referral dies there.
+
+> **No account is currently referenced.** The old `@infusion_hair_` handle has been retired and removed from every email. This lever is on hold until a current handle is confirmed; if there isn't an active account, skip Lever 5 entirely and put the effort into Levers 1 and 2, which matter more anyway.
 
 Minimum viable: post the Thu/Fri news once, keep 6–9 recent results visible, put the booking link in bio. That's it. Don't build a content strategy to fill two days.
 

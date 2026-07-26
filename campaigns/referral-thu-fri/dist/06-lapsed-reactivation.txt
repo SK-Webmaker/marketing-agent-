@@ -21,7 +21,7 @@ kind of appointment. Start with the free consultation. No obligation, no
 pressure to book anything on the day.
 
 Book a Thursday or Friday:
-https://www.fresha.com/a/hair-by-sha-melbourne-prospect-hill-road-i1nq0ttb
+https://hairbysha-booking.onrender.com/book
 
 Or just reply to this email and tell me what your hair's doing. I'll tell you
 honestly what I'd suggest, even if that's "leave it a bit longer."
@@ -33,7 +33,7 @@ either way.
 Sha
 
 Hair by Sha, 1 Prospect Hill Rd, Camberwell VIC 3124
-0452 611 799, @infusion_hair_, hairbyshacamberwell.com
+0452 611 799, hairbyshacamberwell.com
 
 If you'd rather not hear from me again, that's absolutely fine. Unsubscribe
 here: {{{RESEND_UNSUBSCRIBE_URL}}}

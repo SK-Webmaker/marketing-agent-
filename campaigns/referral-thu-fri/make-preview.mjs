@@ -20,7 +20,7 @@ const IMG = resolve(HERE, 'assets/email');
 const OUT = resolve(HERE, 'preview');
 mkdirSync(OUT, { recursive: true });
 
-const BOOKING = 'https://www.fresha.com/a/hair-by-sha-melbourne-prospect-hill-road-i1nq0ttb';
+const BOOKING = 'https://hairbysha-booking.onrender.com/book';
 const SMS = 'sms:?&body=' + encodeURIComponent(
   "You should book in with Sha in Camberwell — she's who does my hair. " +
   "Mention my name when you book and you'll get 10% off your first visit. " +
