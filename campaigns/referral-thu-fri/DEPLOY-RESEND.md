@@ -17,10 +17,22 @@ Step by step, from nothing to sent. Do sections 1–3 once; repeat 4–6 for eac
 **Add DMARC even though it's optional.** Gmail and Yahoo's bulk-sender rules expect it, and without it a few hundred emails at once will land in Promotions or Spam. Start with:
 
 ```
-v=DMARC1; p=none; rua=mailto:sha@hairbyshacamberwell.com
+v=DMARC1; p=none; rua=mailto:shamalkaskiridena@gmail.com
 ```
 
-Sender identity: **`Sha — Hair by Sha <sha@hairbyshacamberwell.com>`**. A first name in the From field is the biggest single open-rate lever on a list like this. Never `no-reply@` — email 3 and 6 both invite replies, and replies are a booking channel.
+### Sender identity
+
+| Field | Value |
+|---|---|
+| **From name** | `Sha from Hair by Sha` |
+| **From address** | `sha@mail.hairbyshacamberwell.com` |
+| **Reply-To** | `shamalkaskiridena@gmail.com` |
+
+The From address **must** be on the verified domain, which is the `mail.` subdomain. You cannot send From a gmail.com address through Resend: it would fail DKIM/SPF alignment and land in spam.
+
+The From address does not need to be a real mailbox. Resend can send from any address on a verified domain. That is exactly why Reply-To matters here: it routes every reply to the inbox Sha actually reads, so nothing bounces into a mailbox that doesn't exist.
+
+A first name in the From name is the biggest single open-rate lever on a list like this. Never `no-reply@` — emails 3 and 6 both explicitly invite replies, and replies are a booking channel.
 
 ---
 
@@ -152,9 +164,10 @@ curl -X POST https://api.resend.com/emails \
   -H "Authorization: Bearer $RESEND_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
-    "from": "Sha — Hair by Sha <sha@hairbyshacamberwell.com>",
+    "from": "Sha from Hair by Sha <sha@mail.hairbyshacamberwell.com>",
+    "reply_to": "shamalkaskiridena@gmail.com",
     "to": ["client@example.com"],
-    "subject": "Emily came in — your 15% is ready",
+    "subject": "Emily came in, your 15% is ready",
     "html": "…contents of dist/05-reward-ready.html…",
     "text": "…contents of dist/05-reward-ready.txt…"
   }'

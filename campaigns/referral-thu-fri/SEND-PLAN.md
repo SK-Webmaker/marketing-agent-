@@ -53,7 +53,17 @@ The primary is a question the reader genuinely gets asked by other people — it
 
 ### Sender identity
 
-Use `Sha — Hair by Sha <sha@hairbyshacamberwell.com>`. A personal first name in the From field is the single biggest open-rate lever on a list like this. **Do not** send from `no-reply@` — email 3 explicitly invites replies, and replies are a booking channel.
+| Field | Value |
+|---|---|
+| **From name** | `Sha from Hair by Sha` |
+| **From address** | `sha@mail.hairbyshacamberwell.com` |
+| **Reply-To** | `shamalkaskiridena@gmail.com` |
+
+The From address has to sit on the verified domain (`mail.hairbyshacamberwell.com`) — sending From a gmail.com address through Resend fails authentication and goes to spam. It doesn't need to be a real mailbox; Reply-To is what puts replies in Sha's actual inbox.
+
+A personal first name in the From name is the single biggest open-rate lever on a list like this. **Do not** send from `no-reply@` — email 3 explicitly invites replies, and replies are a booking channel.
+
+**One caution:** this subdomain already carries the booking software's reminders and notifications. Those are business-critical. Spam complaints from marketing mail can drag down the deliverability of transactional mail sent from the same subdomain. At this list size and warmth the risk is low, but if the list ever grows or complaints appear, move marketing to its own subdomain (e.g. `news.hairbyshacamberwell.com`) and keep `mail.` purely transactional.
 
 ---
 

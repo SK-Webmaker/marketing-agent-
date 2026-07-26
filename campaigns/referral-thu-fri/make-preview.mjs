@@ -74,7 +74,7 @@ for (const file of readdirSync(SRC).sort()) {
             font:14px/1.5 -apple-system,Helvetica,Arial,sans-serif;">
   <div style="font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:#C9AE92;">${label}</div>
   <div style="margin-top:12px;font-size:11px;color:#8C8078;">FROM</div>
-  <div style="font-size:15px;">Sha — Hair by Sha</div>
+  <div style="font-size:15px;">Sha from Hair by Sha &lt;sha@mail.hairbyshacamberwell.com&gt;</div>
   <div style="margin-top:8px;font-size:11px;color:#8C8078;">SUBJECT</div>
   <div style="font-size:16px;font-weight:600;">${subject}</div>
   <div style="margin-top:8px;font-size:11px;color:#8C8078;">PREVIEW TEXT</div>
