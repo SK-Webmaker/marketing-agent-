@@ -1,7 +1,7 @@
 {{NEW_CLIENT_NAME}} came in. You were right about me.
 
-{{REFERRER_NAME}}, thank you. Sending someone to me is a real thing to do —
-you put your own judgement on the line, and I don't take that lightly.
+{{REFERRER_NAME}}, thank you. Sending someone to me is a real thing to do.
+You put your own judgement on the line, and I don't take that lightly.
 
 
 ON YOUR FILE
@@ -12,20 +12,19 @@ Nothing to print, nothing to quote. I'll take it off before you pay.
 
 
 If you'd like the calmest version of your appointment, take a Thursday or
-Friday — they're my newest days and still the quietest in the week. Whole
+Friday. They're my newest days and still the quietest in the week. Whole
 room to yourself, no clock-watching.
 
-Use your 15% — book now:
+Use your 15%, book now:
 {{BOOKING}}
 
 
-And if there's someone else — the reward stands. Every time.
+And if there's someone else, the reward stands. Every time.
 
 Sha
 
-—
-Hair by Sha · 1 Prospect Hill Rd, Camberwell VIC 3124
-0452 611 799 · @infusion_hair_
+Hair by Sha, 1 Prospect Hill Rd, Camberwell VIC 3124
+0452 611 799, @infusion_hair_
 
 Applies to your next single appointment. Not available with other offers.
 

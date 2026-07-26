@@ -1,7 +1,7 @@
 It's been a while. No guilt here.
 
 Life gets busy, budgets shift, and sometimes you find someone closer to home.
-All of it is completely fine — I'd rather send this than pretend I hadn't
+All of it is completely fine. I'd rather send this than pretend I hadn't
 noticed you'd been away.
 
 I'm writing because something's changed at my end that might make coming back
@@ -10,31 +10,30 @@ easier.
 
 WHAT'S NEW: I'VE OPENED THURSDAYS & FRIDAYS
 
-They're my newest days and the quietest in the week — which means appointments
+They're my newest days and the quietest in the week, which means appointments
 that aren't squeezed, and times that were impossible to get before. If getting
 in was ever the problem, it isn't now.
 
 
-If your hair's in a state you'd rather not describe over email — grown-out
-colour, a cut that's lost its shape, something someone else did — that's
-genuinely my favourite kind of appointment. Start with the free consultation.
-No obligation, no pressure to book anything on the day.
+Grown-out colour. A cut that's lost its shape. Something someone else did
+that you'd rather not describe over email. Honestly, that's my favourite
+kind of appointment. Start with the free consultation. No obligation, no
+pressure to book anything on the day.
 
 Book a Thursday or Friday:
 {{BOOKING}}
 
 Or just reply to this email and tell me what your hair's doing. I'll tell you
-honestly what I'd suggest — even if that's "leave it a bit longer."
+honestly what I'd suggest, even if that's "leave it a bit longer."
 
 
-And if you've found someone you love, I mean it — I'm glad. Your chair's here
+And if you've found someone you love, I mean it. I'm glad. Your chair's here
 either way.
 
 Sha
 
-—
-Hair by Sha · 1 Prospect Hill Rd, Camberwell VIC 3124
-0452 611 799 · @infusion_hair_ · hairbyshacamberwell.com
+Hair by Sha, 1 Prospect Hill Rd, Camberwell VIC 3124
+0452 611 799, @infusion_hair_, hairbyshacamberwell.com
 
-If you'd rather not hear from me again, that's absolutely fine —
-unsubscribe here: {{UNSUBSCRIBE}}
+If you'd rather not hear from me again, that's absolutely fine. Unsubscribe
+here: {{UNSUBSCRIBE}}

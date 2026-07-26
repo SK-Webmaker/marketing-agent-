@@ -1,8 +1,8 @@
-Hello {{NEW_CLIENT_NAME}} — and thank {{REFERRER_NAME}}.
+Hello {{NEW_CLIENT_NAME}}, and thank {{REFERRER_NAME}}.
 
 {{REFERRER_NAME}} sent you my way, which is the best kind of introduction
-there is. Your 10% off is already noted against your first appointment —
-there's nothing you need to bring or mention again.
+there is. Your 10% off is already noted against your first appointment.
+There's nothing you need to bring or mention again.
 
 
 YOUR APPOINTMENT
@@ -13,21 +13,20 @@ YOUR APPOINTMENT
 
 BEFORE YOU COME IN
 
-  01  Send me a photo or two of what you're drawn to — and one of your hair
+  01  Send me a photo or two of what you're drawn to, and one of your hair
       as it is now. It saves us both guessing.
-  02  Tell me your hair history — box dye, previous lightening, anything that
-      didn't go to plan. Nothing shocks me.
+  02  Tell me your hair history: box dye, previous lightening, anything
+      that didn't go to plan. Nothing shocks me.
   03  Come with your hair as you normally wear it. I want to see how it
       actually behaves.
 
 It's one client at a time here, so the room is yours for the whole
-appointment. If anything changes, just text me on 0452 611 799 — as much
+appointment. If anything changes, just text me on 0452 611 799. As much
 notice as you can manage is perfect.
 
 Looking forward to meeting you.
 
 Sha
 
-—
-Hair by Sha · 1 Prospect Hill Rd, Camberwell VIC 3124
-0452 611 799 · @infusion_hair_ · hairbyshacamberwell.com
+Hair by Sha, 1 Prospect Hill Rd, Camberwell VIC 3124
+0452 611 799, @infusion_hair_, hairbyshacamberwell.com
