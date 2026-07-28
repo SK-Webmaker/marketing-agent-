@@ -16,7 +16,7 @@ mkdirSync(OUT, { recursive: true });
 mkdirSync(TMP, { recursive: true });
 
 const SMS = 'sms:?&body=' + encodeURIComponent(
-  "You should book in with Sha at Hair by Sha in Camberwell — she's who does my hair. " +
+  "You should book in with Sha at Hair by Sha in Camberwell. She's who does my hair. " +
   "Mention my name when you book and you'll get 10% off your first appointment. hairbyshacamberwell.com"
 );
 const BOOKING = 'https://hairbysha-booking.onrender.com/book';

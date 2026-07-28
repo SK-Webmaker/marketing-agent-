@@ -22,7 +22,7 @@ mkdirSync(OUT, { recursive: true });
 
 const BOOKING = 'https://hairbysha-booking.onrender.com/book';
 const SMS = 'sms:?&body=' + encodeURIComponent(
-  "You should book in with Sha in Camberwell — she's who does my hair. " +
+  "You should book in with Sha in Camberwell. She's who does my hair. " +
   "Mention my name when you book and you'll get 10% off your first visit. " +
   "hairbyshacamberwell.com"
 );
