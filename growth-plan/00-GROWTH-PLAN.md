@@ -10,7 +10,7 @@
 
 ## The one-paragraph read
 
-Hair by Sha has a **strong product and weak discoverability.** The live site positions sharply — colour specialist, 20+ years, K18 certified, grey blending, "for busy professionals" — which is better than most salon copy in Melbourne. The problem is almost nobody can find it. There appears to be **no Google Business Profile**, the business is out-ranked at its own address by a co-located salon with 57 reviews, there are two duplicate booking listings pointing at a system the site no longer uses, and the brand runs two Instagram accounts competing with each other in search. None of that requires a rebuild. All of it is fixable in weeks, mostly for free.
+Hair by Sha has a **strong product and weak discoverability.** The live site positions sharply — colour specialist, 20+ years, K18 certified, grey blending, "for busy professionals" — which is better than most salon copy in Melbourne. The problem is almost nobody can find it. There appears to be **no Google Business Profile** — and she is entitled to one, as a chair renter running an independent business inside Hair Hut. She is out-ranked at her own address by that host salon's 4.7-star, 57-review listing, two duplicate Fresha listings still take bookings into a system she has left, and the brand runs two Instagram accounts competing with each other in search. None of that requires a rebuild. All of it is fixable in weeks, mostly for free.
 
 ## Where the growth actually comes from
 
@@ -36,14 +36,16 @@ Capacity defines the ceiling. Thursday and Friday alone are ~16 bookable hours, 
 
 | Metric | Baseline | 90-day target | Source |
 |---|---|---|---|
-| **Bookings per week** | ⚠️ **needed** | Baseline +30% | Kairo |
+| **Bookings per week** | Kairo just installed, capture from now | Baseline +30% by month 4 | Kairo |
 | **Thu/Fri slots filled** | ⚠️ **needed** | 6–8 per week | Kairo |
-| **Rebooking rate** | ⚠️ **needed** | 60%+ | Kairo |
+| **Rebook-in-chair rate** | none (start tally now) | 40%+ | Manual tally |
 | **Google reviews** | ⚠️ **needed** (likely near zero) | 25+ | GBP |
 | **Map pack, "hairdresser Camberwell"** | Not present | Top 3 | Manual |
-| **Avg weeks between visits** | ⚠️ **needed** | −1 to −2 weeks | Kairo |
+| ~~Avg weeks between visits~~ | *deferred* | needs one full colour cycle in Kairo | Kairo |
 
-Bookings per week and rebooking rate are the two that matter. The rest are leading indicators.
+Bookings per week and rebook-in-chair rate are the two that matter.
+
+**Important correction:** Kairo was only just installed, so there is **no history to baseline against**. Retention rate cannot be measured for 8–14 weeks — one full colour cycle. Targets below are set forward from today, not against a past that isn't recorded. See Pillar 3 for the revised measurement phases.
 
 ---
 
@@ -51,7 +53,7 @@ Bookings per week and rebooking rate are the two that matter. The rest are leadi
 
 | # | Task | Owner | Effort | Blocked by |
 |---|---|---|---|---|
-| 1 | **Create and verify Google Business Profile.** Exact NAP, hours incl. Thu/Fri, 20+ photos of real work, services listed | Sha | 2 hrs | — |
+| 1 | **Create GBP as a practitioner listing.** Put **Hair by Sha signage on her station first** — video verification depends on visible presence. Own hours incl. Thu/Fri, own phone, 20+ photos of her own work | Sha | 2 hrs | — |
 | 2 | **Start the in-chair rebooking ask.** Two named times, every appointment, no exceptions | Sha | 0 | — |
 | 3 | **Get the Google review short link** into the R1 template | Sha | 5 min | Task 1 |
 | 4 | **Begin sending R1 review request** 2 days post-appointment | Sha | 90 sec/client | Task 3 |
@@ -72,7 +74,7 @@ Bookings per week and rebooking rate are the two that matter. The rest are leadi
 | 12 | Monthly Google Business Profile post | Sha | 10 min/mo |
 | 13 | Referral campaign runs (already scheduled, no action) | — | 0 |
 | 14 | Review drive: aim 25+ | Sha | Ongoing |
-| 15 | Resolve shared-address entity problem with Your Hair Hut | Sha | Depends on answer |
+| 15 | Monthly check: does Sha's GBP appear in the map pack alongside Hair Hut's? If filtered, push reviews harder | Sha | 5 min/mo |
 
 ## Priority 3 — Months 2–3
 
@@ -82,7 +84,7 @@ Bookings per week and rebooking rate are the two that matter. The rest are leadi
 | 17 | Service page: **Grey Blending** | Content + Dev |
 | 18 | Service page: **K18 Treatment** | Content + Dev |
 | 19 | Wire Kairo → Resend so R1/R2 fire automatically | Dev |
-| 20 | Rebuild lapsed segment from Kairo export, run the win-back email | Retention |
+| 20 | ~~Lapsed win-back~~ — **parked until ~6 months of Kairo history exists.** Cannot define "lapsed" without last-visit dates | Retention |
 
 ---
 
@@ -90,18 +92,23 @@ Bookings per week and rebooking rate are the two that matter. The rest are leadi
 
 Grouped by who's blocked. **Nothing below has been invented or estimated.**
 
-### Business facts I will not guess at
-1. **What is the relationship between Hair by Sha and Camberwell Hair Salon / Your Hair Hut at 1 Prospect Hill Rd?** Chair rental, sub-lease, former employer, unrelated neighbour? The local SEO fix is completely different depending on the answer, and this is a real business relationship — not something to assume.
-2. **Is there an existing Google Business Profile?** I found none, but absence of evidence isn't proof.
-3. **Which booking system is canonical?** Site says Kairo; two Fresha listings are live; the referral emails point at `hairbysha-booking.onrender.com`. **These are three different destinations.** This needs resolving before more traffic is driven anywhere.
-4. **Is `@infusion_hair_` to be archived or redirected?** It still has accumulated followers and still ranks.
+### ✅ Resolved by owner
 
-### Data I need to make targets real
-5. **Kairo export** — client, service, appointment date, last 12 months. Unlocks retention rate, visit gap, lapsed segment, and automation.
+1. **Hair Hut relationship.** Completely separate business. Sha **rents a chair** and runs Hair by Sha Camberwell independently from inside their salon. → She **qualifies for her own Google Business Profile** as a practitioner listing. Main risk is Google's local filter hiding the listing with fewer reviews, which makes the review drive urgent rather than optional. Full detail in Pillar 1 §2.
+2. **Kairo is canonical**, and was only just installed. → **No usable history exists.** Retention rate, visit gap and lapsed segments cannot be calculated yet. Metrics revised to measure forward from now; see Pillar 3.
+
+### 🔴 Urgent — before 4 August
+
+3. **Is `hairbysha-booking.onrender.com/book` the Kairo booking system, or something else?** The live site says clients book "on Kairo". All three scheduled referral broadcasts, and both new retention templates, point at the Render URL. **If those are different systems, the campaign sends 161 clients to the wrong place**, and the first one fires **Tue 4 Aug**. One-line answer needed; I can repoint everything in minutes.
+
+### Still needed
+
+4. **Both Fresha listings closed or repointed to Kairo** — they currently take bookings into a system Sha no longer uses.
+5. **Is `@infusion_hair_` to be archived or redirected?** Still has accumulated followers and still ranks against `@hairbysha_c`.
 6. **Google Search Console** access or a 3-month query screenshot.
 7. **PageSpeed / Core Web Vitals** numbers for the homepage.
 8. **Instagram + TikTok analytics** — 30-day reach, follows, top posts, post counts, follower totals on both IG accounts.
-9. **Current Google review count and rating.**
+9. **Current Google review count**, once the profile is live.
 
 ### Content that must be real before publication
 10. **Testimonials.** The earlier site build carried placeholder testimonials explicitly marked as needing replacement. **Do not publish any testimonial that isn't a real, attributable client quote.**

@@ -157,17 +157,41 @@ Email is one layer. The others cost nothing and matter more:
 
 ---
 
-## Success metrics
+## Success metrics — revised for reality
 
-⚠️ **Baselines outstanding — supply these and this becomes measurable.**
+**✅ RESOLVED (confirmed by owner): Kairo was only just installed, and is now the main booking system.**
 
-| Metric | Baseline needed | 90-day target |
+That is a material constraint and it changes this section honestly:
+
+- **There is no usable history.** A 12-month export does not exist. Retention rate, average visit gap and true lapsed counts **cannot be calculated today**, and I am not going to model them from nothing.
+- **Retention is a trailing metric.** Even with perfect data collection from today, a meaningful repeat rate for colour clients needs **8–14 weeks minimum** — one full cycle. A 90-day retention target measured from now would be measuring an incomplete cycle.
+
+### So measure forward, not backward
+
+| Phase | Window | What to measure |
 |---|---|---|
-| Rebooking rate (rebooked within due window) | **from Kairo** | 60%+ |
-| Rebook-in-chair rate | **from Kairo** | 40%+ of appointments |
-| Google reviews | **from GBP** | 25+ |
-| Review request → review conversion | n/a | 20–30% |
-| Client repeat rate at 6 months | **from Kairo** | Establish, then improve |
-| Average weeks between visits | **from Kairo** | Shorten by 1–2 weeks |
+| **Baseline build** | Weeks 1–8 | Just capture cleanly. Every appointment in Kairo with client, service, date. No targets. |
+| **First read** | Weeks 8–12 | First real rebooking rate. This becomes the baseline everything else is judged against. |
+| **Improvement** | Month 4+ | Now targets mean something |
 
-**Send me a Kairo export** with client, service, and appointment date for the last 12 months. From that I can calculate your actual retention rate, average visit gap, and lapsed count — and build the segments that make all of this automatic rather than manual.
+### Measurable from day one (no history required)
+
+These work immediately because they count events, not ratios against a past:
+
+| Metric | Target from week 1 | Source |
+|---|---|---|
+| **Rebook-in-chair rate** | 40%+ of appointments leave with the next one booked | Tally on paper, or Kairo |
+| **Google reviews** | 25+ in 90 days | GBP |
+| **Review request → review** | 20–30% | Manual count |
+| **R2 rebooking prompt → booking** | 30%+ reply rate | Reply count |
+| **Thu/Fri slots filled per week** | 6–8 | Kairo |
+
+### Deliberately deferred until data exists
+
+- Retention rate — needs one full colour cycle
+- Average weeks between visits — needs 2+ visits per client in Kairo
+- **Lapsed segment and the win-back email** — needs last-visit dates. **Realistically 6+ months away**, since "lapsed" means not seen in 6 months and Kairo has no history to establish that.
+
+> The 161 contacts already in Resend are the historical client list, but they carry **no last-visit date**, so they cannot be segmented by recency either. This is why the win-back email stays parked.
+
+**One thing worth doing now:** start a simple tally sheet — appointments this week, how many rebooked in-chair. Two numbers, thirty seconds a day. That gives a usable baseline in a fortnight without waiting on Kairo reporting to mature.

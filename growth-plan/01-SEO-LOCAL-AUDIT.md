@@ -44,9 +44,35 @@ For a local service business, Google Business Profile *is* local SEO. It drives 
 
 Hair by Sha appears at the same address with no comparable review presence.
 
-Whether Your Hair Hut is the host salon Sha operates within, or a genuinely separate co-located business, the SEO effect is the same: **Google's entity resolution favours them.** Two businesses at one address, one with 57 reviews and one with almost none, means the review-rich entity wins the map pack.
+**✅ RESOLVED (confirmed by owner):** Hair Hut is a **completely separate business**. Sha **rents a chair** inside their salon and runs Hair by Sha Camberwell as her own independent business from that space. Same address, unrelated companies.
 
-> ⚠️ **Needs your confirmation:** what is the actual relationship between Hair by Sha and Your Hair Hut / Camberwell Hair Salon? Chair rental, sub-lease, former employer, unrelated neighbour? The fix is completely different depending on the answer, and I am not going to guess about a real business relationship.
+### What that means — and it is good news
+
+Under Google's guidelines Sha **qualifies for her own Google Business Profile as a practitioner listing.** She meets every criterion:
+
+| Google's practitioner test | Sha |
+|---|---|
+| Direct customer relationship, requested by name | ✅ Clients book "Sha", not "a stylist" |
+| Hours that differ from the host business | ✅ She sets her own, and just added Thu/Fri |
+| Sets her own prices | ✅ Own price list, own booking system |
+| Own accurate business category | ✅ Hair salon / hairdresser |
+
+A practitioner listing at the same address as the host business **is permitted** where the practitioner is independently operating — which is exactly this situation.
+
+### Two real risks, named honestly
+
+1. **The local filter.** Google may filter one of two listings in the same category at the same address out of the map pack. Hair Hut has 57 reviews and an established profile; a brand-new listing with zero reviews is the more likely one to be filtered. **This is the strongest argument for driving reviews hard and early** — review volume is what stops Sha's listing being the one Google hides.
+
+2. **Verification.** Expect video verification. Google will want to see genuine operational presence.
+
+### To pass verification and survive the filter
+
+- **Visible "Hair by Sha" signage at her station** — a sign, decal, or mirror branding. This is the single most important physical requirement.
+- **Distinguish the address**: `1 Prospect Hill Rd, Camberwell VIC 3124` with a suite/unit or `c/- Hair Hut` designation if Google prompts for one.
+- **Her own hours**, not Hair Hut's.
+- **Her own phone**: `0452 611 799` — already distinct from Hair Hut's number. Good.
+- **Photos of her own station and her own work**, not the wider salon.
+- **Reviews, urgently.** See Pillar 3's review-request email.
 
 ## 3. Duplicate and competing listings
 
@@ -108,7 +134,7 @@ The site currently targets the head term. The gap is the **long tail that conver
 
 | # | Fix | Why | Owner |
 |---|---|---|---|
-| 1 | **Create/claim Google Business Profile.** Category "Hair Salon" + secondary "Hairdresser". Exact NAP: `Hair by Sha, 1 Prospect Hill Rd, Camberwell VIC 3124, 0452 611 799`. Add hours including the new Thu/Fri. | Biggest single local visibility gap. Free. | Sha |
+| 1 | **Create Google Business Profile as a practitioner listing.** Category "Hair Salon" + secondary "Hairdresser". NAP: `Hair by Sha, 1 Prospect Hill Rd, Camberwell VIC 3124, 0452 611 799`. Own hours incl. Thu/Fri. **Put signage on her station first** — verification depends on it. | Biggest single local visibility gap. Free. Confirmed eligible. | Sha |
 | 2 | **Kill or redirect the duplicate Fresha listings.** Pick one, close the other, and point the survivor's booking link at Kairo. | Bookings are leaking to a dead system | Sha |
 | 3 | **Decide the fate of `@infusion_hair_`.** Either put a pinned post + bio link directing to `@hairbysha_c`, or rename/archive it. | Stops splitting brand equity and losing referred traffic | Content Lead |
 | 4 | **Verify `HairSalon` schema survived the rebuild.** Test at `search.google.com/test/rich-results`. Add `aggregateRating` only once real reviews exist. | Drives rich results, easy to lose in redesign | Dev |
@@ -121,7 +147,7 @@ The site currently targets the head term. The gap is the **long tail that conver
 |---|---|---|---|
 | 7 | **Dedicated service pages** for Colour Correction, Grey Blending, and K18 Treatment | Three highest-intent, lowest-competition terms. One page each, 600–900 words, real before/after photos, priced honestly. | Medium |
 | 8 | **Google review engine** — target 25+ reviews in 90 days | Only durable way to compete with a 57-review neighbour at the same address. See the email sequence in Pillar 3. | Ongoing |
-| 9 | **Resolve the shared-address entity problem** | Depends on your answer to §2. May need a suite/unit number on GBP to distinguish the two businesses. | Depends |
+| 9 | **Protect the practitioner listing from the local filter** | Resolved: separate businesses, chair rental. The defence is review volume + distinct signage, phone and hours, not a legal fix. Track monthly whether Sha's listing appears in the map pack alongside Hair Hut's. | Ongoing |
 | 10 | **Local content: "Camberwell Junction" geographic anchor** | Already in your copy. Build on it — being findable for the junction, not just the suburb. | Low, ongoing |
 | 11 | **Reclaim the `@infusion_hair_` audience properly** | That account has real accumulated followers. Migrate them deliberately rather than abandoning them. | Low |
 
