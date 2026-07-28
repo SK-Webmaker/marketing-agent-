@@ -97,9 +97,9 @@ Grouped by who's blocked. **Nothing below has been invented or estimated.**
 1. **Hair Hut relationship.** Completely separate business. Sha **rents a chair** and runs Hair by Sha Camberwell independently from inside their salon. → She **qualifies for her own Google Business Profile** as a practitioner listing. Main risk is Google's local filter hiding the listing with fewer reviews, which makes the review drive urgent rather than optional. Full detail in Pillar 1 §2.
 2. **Kairo is canonical**, and was only just installed. → **No usable history exists.** Retention rate, visit gap and lapsed segments cannot be calculated yet. Metrics revised to measure forward from now; see Pillar 3.
 
-### 🔴 Urgent — before 4 August
+### ✅ Booking system — resolved
 
-3. **Is `hairbysha-booking.onrender.com/book` the Kairo booking system, or something else?** The live site says clients book "on Kairo". All three scheduled referral broadcasts, and both new retention templates, point at the Render URL. **If those are different systems, the campaign sends 161 clients to the wrong place**, and the first one fires **Tue 4 Aug**. One-line answer needed; I can repoint everything in minutes.
+3. ✅ **RESOLVED:** `hairbysha-booking.onrender.com/book` **is** Kairo. All scheduled broadcasts and templates point at the correct system. No action needed.
 
 ### Still needed
 
