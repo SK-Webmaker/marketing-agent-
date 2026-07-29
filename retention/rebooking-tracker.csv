@@ -1,0 +1,3 @@
+client_name,email,mobile,last_service,last_visit,cycle_weeks,due_date,rebooked_in_chair,status,r1_review_sent,r2_rebook_sent,personal_note
+Emily Smith,emily@example.com,0400 000 000,Root colour + refresh,2026-07-16,5,2026-08-20,No,Scheduled,Yes,No,Back from Japan in Sept
+Sarah Jones,sarah@example.com,0400 000 001,Balayage,2026-06-04,12,2026-08-27,Yes,Booked,Yes,n/a,New puppy - Milo

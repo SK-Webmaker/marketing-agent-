@@ -1,0 +1,5 @@
+# ruflo / claude-flow runtime state — not versioned
+.claude-flow/data/
+.claude-flow/logs/
+.claude-flow/sessions/
+node_modules/
